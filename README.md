@@ -2,13 +2,13 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the official repository for "[Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)" by [Andy Zou](https://andyzoujm.github.io/), [Zifan Wang](https://sites.google.com/west.cmu.edu/zifan-wang/home), [J. Zico Kolter](https://zicokolter.com/), and [Matt Fredrikson](https://www.cs.cmu.edu/~mfredrik/).
+<!-- This is the official repository for "[Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)" by [Andy Zou](https://andyzoujm.github.io/), [Zifan Wang](https://sites.google.com/west.cmu.edu/zifan-wang/home), [J. Zico Kolter](https://zicokolter.com/), and [Matt Fredrikson](https://www.cs.cmu.edu/~mfredrik/).
 
 Check out our [website and demo here](https://llm-attacks.org/).
 
 ## Updates
 - (2023-08-16) We include a notebook `demo.ipynb` (or see it on [Colab](https://colab.research.google.com/drive/1dinZSyP1E4KokSLPcCh1JQFUFsN-WV--?usp=sharing)) containing the minimal implementation of GCG for jailbreaking LLaMA-2 for generating harmful completion.
-
+ -->
 
 ## Table of Contents
 
@@ -90,7 +90,7 @@ We include a few examples people told us when reproducing our results. They migh
 
 Currently the codebase only supports training with LLaMA or Pythia based models. Running the scripts with other models (with different tokenizers) will likely result in silent errors. As a tip, start by modifying [this function](https://github.com/llm-attacks/llm-attacks/blob/main/llm_attacks/base/attack_manager.py#L130) where different slices are defined for the model.
 
-## Citation
+<!-- ## Citation
 If you find this useful in your research, please consider citing:
 
 ```
@@ -105,6 +105,6 @@ If you find this useful in your research, please consider citing:
 ```
 
 ## License
-`llm-attacks` is licensed under the terms of the MIT license. See LICENSE for more details.
+`llm-attacks` is licensed under the terms of the MIT license. See LICENSE for more details. -->
 
 
